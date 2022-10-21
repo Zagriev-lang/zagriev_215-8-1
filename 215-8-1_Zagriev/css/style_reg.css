@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+    font-family:"Roboto" ;
+}
+
+
+.registration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px ;
+    background: #FDFDFF;
+    box-shadow: 0px 0px 30px rgba(0, 29, 108, 0.1);
+    width: 300px;
+    height: 433px;
+    margin: auto;
+}
+
+.registration__wrap{
+
+}
+
+.registration__title{
+    padding-bottom: 25px;
+    display: flex;
+    justify-content:center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    
+    color: #979797;
+}
+
+.registration__inputs{
+    padding-bottom: 50px;
+}
+
+.input{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 2px rgba(0, 29, 108, 0.07);
+    border-radius: 5px;
+    padding: 13px 100px 13px 20px;
+    margin-bottom: 10px;
+}
+
+.registration__button{
+    width: 300px;
+    padding: 15px 90px;
+    background: #8DD83D;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1)
+
+}
+
+.registration__btn{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #FDFDFF;
+}
+
+.registration__login{
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    
+    color: rgba(0, 0, 0, 0.5);
+}

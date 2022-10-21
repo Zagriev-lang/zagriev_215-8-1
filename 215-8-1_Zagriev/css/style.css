@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.link{
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+
+.link_g{
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.text{
+    color: #FFFFFF;
+}
+
+.btn_g{
+    background: #8DD83D;
+    border-radius: 4px;
+    padding: 12px 25px 12px 25px;
+}
+
+.btn_b{
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border-radius: 4px;
+    padding: 12px 25px 12px 25px;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+    font-family:"Roboto" ;
+}
+
+
+.container{
+    width: 1100px;
+    margin: auto ;
+}
+
+
+/* FIRST */
+
+
+.first{
+}
+
+.header{
+    background: #373A3C;
+    padding: 20px 0 20px 0;
+}
+
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__burger{
+    display: none;
+}
+
+.header__menu{}
+
+.header__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__item{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+
+}
+
+.header__link{
+    padding: 0 10px 0 10px;
+}
+
+
+
+.header__input{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    padding: 9px 0 9px 15px;
+}
+
+.intro{
+    background:url(../img/Star-Wars-Battlefront-II-combat.png) no-repeat center center/cover;
+    padding-top: 300px;
+}
+
+
+.intro__wrap{
+  
+}
+
+.intro__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 500px;
+
+}
+
+
+.intro__title{
+    font-size: 36px;
+    line-height: 42px;
+    padding-bottom: 20px;
+}
+
+.intro__text{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.intro__arrows{
+    padding: 50px 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.intro__buttons{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+
+}
+
+.intro__button:not(:last-of-type){
+    margin-right: 40px;
+}
+
+.intro__points{
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+    padding-bottom: 30px;
+}
+
+/* Second */
+
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+}
+
+.second__wrap{
+}
+
+.second__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second__logo{
+
+}
+
+.second__title{
+    padding: 30px 0 30px 0;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.second__text{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.second__tables{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.second__table{
+    background: #FFFFFF;
+    border: 1px solid #8DD83D;
+    border-radius: 4px;
+    padding: 20px;
+    margin-right: 44px;
+}
+
+
+
+.second__table-intro{
+    padding-bottom: 40px;
+}
+
+.second__table-info{
+
+}
+
+.second__table-title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #435766;
+    padding-top: 3o;
+
+}
+
+.second__table-text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #435766;
+    padding: 30px 0 30px 0;
+}
+
+.second__table-button{
+    padding: 20px 40px;
+}
+
+
+/* Third */
+
+.third{
+    padding-top: 120px;
+    padding-bottom: 145px;
+    background: url(../img/Rectangle.png) no-repeat center center/ cover;
+}
+
+.third__wrap{
+}
+
+.third__info{}
+
+.third__title{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;   
+}
+
+.third__text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 40px 0 40px 0;
+    max-width: 550px;
+}
+
+.third__buttons{
+    display: flex;
+}
+
+.third__button{
+    padding: 20px 50px;
+}
+
+.third__button:not(:last-of-type){
+    margin-right: 40px;
+}
+
+/* Footer */
+
+.footer{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background: #373A3C;
+    border-radius: 4px;
+}
+
+.footer__wrap{}
+
+.footer__menu{
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__list{
+    display: flex;
+}
+
+.footer__item{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.footer__title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7DD42F;
+}
+
+.footer__text{
+    margin-top: 35px;
+}
+
+.footer__mes{
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.footer__icon{
+    margin-right: 20px;
+}
+
+.footer__line{
+    mix-blend-mode: normal;
+    opacity: 0.35;
+    border: 1px solid #FFFFFF;
+}
+
+
+.footer__footer{
+    padding-top: 30px;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+
+
+
+
+@media (max-width:1200px){
+
+    .container{
+        width: auto;
+    }
+
+    .intro__info{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .intro__buttons{
+        margin: 0;
+    }
+
+    .header__burger{
+        display: block;
+    }
+
+    .header__menu{
+        display: none;
+    }
+
+    .second__title{
+        font-size: 30px;
+    }
+
+    .second__text{
+        font-size: 20px;
+    }
+
+    .second__tables{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .second__table{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+    }
+
+
+    .second__table-text{
+        max-width: 300px;
+    }
+
+    .third__title{
+        font-size: 30px;
+    }
+
+
+
+    .third__text{
+        font-size: 20px;
+        max-width: 300px;
+    }
+
+    .third__button{
+        padding: 10px 30px;
+    }
+
+    .footer__menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
